@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "langchain-api"
+name = "oneapi2langchain"
 version = "0.0.1"
 description = "langchain实现的闭源模型统一API"
 authors = ["liuyu <506610466@qq.com>"]
@@ -9,6 +9,11 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.10"
 
+
+[[tool.poetry.source]]
+name = "foo"
+url = "https://pypi.example.org/simple/"
+priority = "supplemental"
 
 [build-system]
 requires = ["poetry-core"]

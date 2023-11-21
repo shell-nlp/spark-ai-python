@@ -18,7 +18,7 @@
 ## 安装
 
 ```sh
-pip install --upgrade langchain_api
+pip install --upgrade oneapi2langchain
 ```
 
 ## 示例代码
