@@ -15,17 +15,17 @@
 * [ ] 通义千问
 * [ ] 百川
 
-## 安装
+## 安装(要用官方源，国内源可能同步更新不及时)
 
 ```sh
-pip install --upgrade oneapi2langchain
+pip install oneapi2langchain -i https://pypi.org/simple/
 ```
 
 ## 示例代码
 
 ```python
 
-from oneapi2langchain import ChatSpark
+from oneapi2langchain import ChatSpark  # 完全支持langchain
 from dotenv import load_dotenv  # 加载 APP_ID 等配置
 load_dotenv()
 
